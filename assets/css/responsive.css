@@ -1,0 +1,175 @@
+@media (max-width: 1210px) {
+    .top-reviews-card {
+        flex-wrap: wrap;
+        justify-content: center;
+        min-height: 400px;
+    }
+    .top-reviews-info {
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 1145px) and (min-width: 1024px) {
+    .main-container .footer {
+        padding: 106px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none!important;
+    }
+}
+
+@media (max-width: 1190px) and (min-width: 1024px) {
+    .header-navbar__item .header-navbar__link {
+        padding: 0 22px;
+    }
+}
+
+@media (max-width: 1113px) {
+    .content-tours .content-tours-container,
+    .content-experiencers .content-experiencers-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 1023px) {
+    .hide-on-tablet-mobile {
+        display: none!important;
+    }
+    .main-container .slider {
+        margin-top: var(--header-alt-height);
+        height: 630px;
+    }
+    .slider .slider__text {
+        top: 35%;
+    }
+    .slider__text .slider__second-heading {
+        font-size: 9.3rem;
+    }
+    .slider__text .slider__description {
+        padding: 0 212px;
+        /* font-size: 1.6rem; */
+    }
+    .content-stats .content-stats__container {
+        justify-content: space-between;
+    }
+    .winter-holiday-item {
+        margin-bottom: 48px;
+    }
+    .winter-holiday-item .winter-holiday__destinations {
+        margin: 12px 0 16px;
+    }
+    .stats__wrapper,
+    .winter-resort__item {
+        margin-bottom: 60px;
+    }
+    .winter-resort__link .winter-resort__destination {
+        font-size: 7rem;
+    }
+    .winter-resort__item-wrapper .winter-resort__mark {
+        right: 10%;
+        width: 66px;
+        height: 66px
+    }
+    .winter-resort__item-wrapper .winter-resort__mark i {
+        font-size: 1.8rem;
+    }
+    .footer-logo__description {
+        margin: 16px 0 24px;
+    }
+    .footer-contact .footer-contact__email,
+    .footer-contact .footer-contact__phone {
+        margin-bottom: 24px;
+    }
+    .footer-contact {
+        margin-bottom: 48px;
+    }
+    .footer-post__list .footer-post__item-wrapper {
+        margin-top: 28px;
+    }
+    .footer-post__info {
+        margin: 0 0 24px;
+    }
+    .gallery-mobile-gutters {
+        padding-right: 2.5px;
+        padding-left: 2.5px;
+    }
+}
+
+@media (min-width: 740px) {
+    .hide-on-pc-tablet {
+        display: none!important;
+    }
+}
+
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none!important;
+    }
+    .header-alt-container {
+        padding: 0 56px;
+    }
+    .header-alt-navbar .header-alt-navbar__list {
+        padding: 0 56px;
+    }
+    .tours__img-wrapper .tours__img {
+        height: auto;
+    }
+    .main-container .slider {
+        height: 508px;
+    }
+    .slider__text .slider__second-heading {
+        font-size: 5.5rem;
+        margin-bottom: 12px;
+    }
+    .slider__text .slider__first-heading {
+        font-size: 3.5rem;
+    }
+    .slider__text .slider__description {
+        padding: 0 2px;
+        font-size: 1.6rem;
+    }
+    .tours-detail .tours__description {
+        padding: 0;
+    }
+    .content-title-wrapper .title__tagline {
+        font-size: 3rem;
+    }
+    .content-title-wrapper .title__heading {
+        font-size: 5rem;
+    }
+    .content-top-reviews .title__heading {
+        font-size: 5.5rem;
+    }
+    .content-top-reviews .top-reviews-body {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    .top-reviews-card {
+        min-height: 318px;
+    }
+    .top-reviews__avatar-wrapper {
+        width: 100%;
+        justify-content: center;
+    }
+    .content-top-reviews .top-reviews__text {
+        padding: 0;
+    }
+    .experiencers__info {
+        width: 100%;
+    }
+    .footer-header {
+        margin-top: 48px;
+    }
+    .footer-header .footer-item__text {
+        margin: 16px 0 24px;
+    }
+    .footer .footer-copyright {
+        margin-top: 80px;
+    }
+}
